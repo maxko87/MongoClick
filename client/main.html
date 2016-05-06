@@ -1,0 +1,16 @@
+<head>
+  <title>Mongo URIs</title>
+</head>
+
+<body>
+  {{> Main}}
+</body>
+
+<template name="Main">
+  <div class="main">
+    <h2>Convert between Mongo URI formats.</h2>
+    <h4><code class="left">mongodb://user:pass@domain:123/db</code> <span class="spaced-glyph">↔</span> <code>mongo domain:123/dbname -u user -p pass</code></h4>
+    <input id="main-input" placeholder="mongodb://user:pass@domain:123/db">
+    <div id="main-output"></div>
+  </div>
+</template>

@@ -1,0 +1,25 @@
+html {
+  font-family: arial, sans-serif;
+  background-color: #EEEEEE;
+}
+
+.main {
+  padding: 20px 40px;
+  text-align: center;
+}
+
+#main-input {
+  margin: 20px;
+  padding:5px;
+  border:2px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 650px;
+}
+#main-input:focus{
+  border-color:#333;
+}
+
+.spaced-glyph {
+  margin: 0 15px;
+}
