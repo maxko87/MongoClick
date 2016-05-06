@@ -57,6 +57,10 @@ function convertInput(){
   return
 }
 
+Template.Main.onCreated(function(){
+  GAnalytics.pageview()
+});
+
 $('#main-input').on('paste', function () {
   setTimeout(function(){
     convertInput()
